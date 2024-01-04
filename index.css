@@ -1,0 +1,166 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+ 
+}
+
+.top{
+
+  background-color: rgba(0, 0, 139, 0.937);
+
+}
+
+
+
+.nev{
+  display: flex;
+width: 80%;
+margin: 0px auto;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+justify-content: space-between;
+align-items: center;
+}
+
+.A{
+  font-size: 23px;
+}
+.hora{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+.first{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.second{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 30px;
+}
+
+.g{
+  background-color:rgb(38, 155, 210);
+  height: 38px;
+  width: 120px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  border-radius: 5px;
+  
+ 
+  
+  
+
+}
+
+.hello{
+  
+  height: 63px;
+ 
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+  /* margin: 30px; */
+  /* background-color: yellow; */
+  padding-top: 20px;
+ 
+  
+
+}
+
+.email{
+  height: 40px;
+  width: 300px;
+  border-radius: 4px;
+  border-color: silver;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+
+ 
+}
+
+.hm{
+  height: 45px;
+  width: 90px;
+  border-radius: 4px;
+  border-color: silver;
+  border: 1px solid;
+
+
+  
+
+
+  
+}
+
+input{
+  border: none;
+}
+
+.cs{
+  height: 45px;
+  width: 90px;
+  border-radius: 4px;
+  border-color: silver;
+  border: 1px solid;
+}
+
+.fin{
+  height: 45px;
+  width: 90px;
+  border-radius: 4px;
+  border-color: silver;
+  border: 1px solid;
+}
+
+
+.search{
+  font-size: 20px;
+  background-color: rgba(0, 0, 139, 0.937);
+  height: 45px;
+  width:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: white;
+ 
+
+
+ 
+
+}
+
+img{
+  height: 100%;
+  width: 100%
+}
+.imagesection{
+  height: 80vh;
+  position: relative;
+}
+
+
+
+
+.text{
+
+
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  right: 0px;
+  width: 70%;
+  margin: 0px auto;
+  background-color: green;
+
+}
