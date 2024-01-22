@@ -2,6 +2,8 @@ body{
   margin: 0px;
   padding: 0px;
 
+  
+
  
 }
 
@@ -11,6 +13,9 @@ body{
 
 }
 
+.f span{
+  border-bottom: 1px dotted white;
+}
 
 
 .nev{
@@ -63,14 +68,15 @@ align-items: center;
 
 .hello{
   
-  height: 63px;
+
  
   display: flex;
   justify-content:center;
-  gap: 10px;
+  gap: 15px;
+  align-items: center;
   /* margin: 30px; */
   /* background-color: yellow; */
-  padding-top: 20px;
+padding: 20px 0px;
  
   
 
@@ -106,12 +112,13 @@ input{
   border: none;
 }
 
-.cs{
-  height: 45px;
-  width: 90px;
-  border-radius: 4px;
-  border-color: silver;
-  border: 1px solid;
+
+
+
+.hubb{
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .fin{
@@ -120,6 +127,13 @@ input{
   border-radius: 4px;
   border-color: silver;
   border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  background-color: white;
+
 }
 
 
@@ -160,7 +174,632 @@ img{
   left: 0px;
   right: 0px;
   width: 70%;
-  margin: 0px auto;
-  background-color: green;
+  
+ 
+  
 
+
+  margin: 0px auto;
+  color: white;
+  
+
+
+}
+
+.aauta{
+  font-size: 20px;
+  
+
+}
+
+.duita{
+  font-size: 35px;
+  font-weight:600;
+}
+.tinta{
+  width:35%;
+  height: 90%;
+  
+
+}
+
+.tinta div{
+  gap: none;
+}
+
+.chaota{
+  font-size: 35px;
+}
+
+.pachota{
+ 
+  background-color:rgb(38, 155, 210);
+  height: 38px;
+  width: 150px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-top: 20px;
+  
+}
+
+.cen{
+  width: 50%;
+  margin: 0px auto;
+  left: 0px;
+  right: 0px;
+  margin-top: 35px;
+}
+
+.gm{
+
+  text-align: center;
+  font-size: 28px;
+  padding-top: 30px;
+
+ 
+}
+
+.am{
+  text-align: center;
+  color: rgb(108, 106, 106);
+  font-size: 16px;
+  width: 50%;
+
+  margin: 0px auto;
+  padding-bottom: 30px;
+
+}
+
+.ami{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.pic{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  height:fit-content;
+  width: 80%;
+ justify-content: space-between  ;
+  margin: 0px auto;
+  padding-top: 30px;
+
+  padding-bottom: 40px;
+
+}
+
+.ab{
+ 
+  background-image: url('./items1.jpg.webp');
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+  background-color: red;
+ 
+
+}
+
+.week{
+  border: 1px solid gray;
+  height: fit-content;
+  
+
+  /* line-height: 20px; */
+  
+
+}
+
+.yel{
+  color: gray;
+}
+
+.hom{
+  color: gray;
+}
+
+.asa{
+  padding: 0px 20px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+
+
+.ac{
+
+  background-image: url('./items2.jpg.webp');
+  background-repeat: no-repeat;
+  height: 250px;
+  
+}
+
+.ad{
+ 
+  background-image: url('./items1.jpg.webp');
+  background-repeat: no-repeat;
+  border: 1px solid;
+  height: 70%;
+
+}
+.doller{
+  color: rgb(38, 155, 210);
+}
+
+.Appartment{
+  font-size: 20px;
+  
+  
+}
+.get{
+  padding-top: 12px;
+  color: rgb(132, 132, 132);
+  background-color: green;
+}
+
+
+
+.box{
+  border-top: 1px solid gray;
+  /* width: 90%; */
+  margin: 0px auto;
+  padding: 10px 10px;
+}
+
+.syk{
+  display: flex;
+  color: rgb(132, 132, 132);
+  align-items: center;
+  gap:10px;
+  margin: 0px auto;
+
+
+}
+.syk svg{
+  height: 25px;
+  
+  
+}
+
+
+.picture{
+  position: relative;
+  padding-bottom:50px;
+
+}
+.picture img{
+  height: 450px;
+  object-fit: cover;
+
+
+}
+
+.heading{
+  width: 100%;
+
+  position: absolute;
+  top:45px;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+
+  
+
+}
+
+.ami svg{
+  height: 60px;
+  width:90px;
+
+
+  
+}
+
+.sell{
+  font-size: 25px
+
+}
+
+.prop{
+  font-size: 15px;
+  color: whitesmoke;
+
+}
+
+
+
+
+
+
+.kam{
+  background-color:rgb(38, 155, 210);
+  height: 300px;
+  width: 70%;
+
+margin: 0px  auto;
+margin-top: 20px;
+display: grid;
+grid-template-columns: 30% 30% 30%;
+justify-content: center;
+align-items: center;
+
+
+
+
+ 
+}
+
+.one svg{
+  height: 100px;
+  width: 13px;
+}
+
+.middle{
+  font-size: 33px;
+  text-align: center;
+}
+
+
+.sundry{
+  background-color: rgba(222, 222, 222, 0.453);
+  width: 80%;
+  height: 300px;
+  /* margin-bottom: px; */
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 0px auto;
+  padding:10px ;
+
+  
+}
+.forx{
+
+
+  
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+
+
+
+ 
+
+
+}
+
+.exp{
+  font-size: 39px;
+
+  font-weight:800;
+  
+}
+
+.gets{
+  color: rgb(132, 132, 132);
+  width: 450px;
+  
+}
+
+
+.view{
+  height: 45px;
+  width: 170px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  /* background-color:rgb(38, 155, 210); */
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* overflow: clip; */
+  transition: all 0.5s ease-in-out ;
+  cursor: pointer;
+  border: 1px solid rgb(38, 155, 210);
+
+  
+}
+
+.App{
+  display: flex;
+  text-align: center;
+ 
+}
+
+.arapp{
+  text-align: center;
+}
+
+
+
+.view span{
+  position: relative;
+  z-index: 1;
+}
+.view .inne{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+
+  background-color:rgb(38, 155, 210);
+
+  content: '';
+  contain: '';
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out ;
+cursor: pointer;
+
+}
+.view:hover{
+  background-color: transparent;
+}
+
+.view:hover .inne{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '';
+  contain: '';
+  width: 0%;
+  height: 100%;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out ;
+  transition-delay: .2s;
+
+
+}
+.view:hover span{
+  color: rgb(38, 155, 210);
+  transition: all 0.5s ease-in-out ;
+
+}
+
+.fory{
+  background-color:white;
+  height: fit-content;
+  width:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.mist{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+gap: 30px;
+  
+}
+
+.our{
+ 
+  padding-top: 38px;
+  text-align: center;
+}
+
+.ouragents{
+  font-size: 32px;
+ 
+}
+
+.started{
+  color: rgb(132, 132, 132);
+  font-size: 18px;
+
+  width: 50%;
+
+  margin: 0px auto;
+
+
+
+}
+
+
+.again{
+
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  height:fit-content;
+  width: 80%;
+ justify-content: space-between;
+  margin: 0px auto;
+  padding-top: 30px;
+
+ 
+ 
+
+}
+
+.mercury{
+
+  height:fit-content;
+}
+
+.name{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.namein{
+  text-align: center;
+  color: gray;
+}
+
+
+.gold{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  color: white;
+  position: relative;
+
+ 
+
+}
+
+.sill{
+  background-color:  rgba(0, 0, 139, 0.937);
+  height:400px;
+  width: 60%;
+ 
+ 
+
+}
+
+.golden{
+ height: 400px;
+}
+.Subscribe{
+  background-color:rgb(38, 155, 210);
+  height: 32px;
+  width: 100px;
+  text-align: center;
+  height: fit-content;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 12px 12px;
+  
+ 
+
+}
+.ruwayo{
+ 
+  height: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 10px;
+ margin-left: 50px;
+ 
+ 
+
+
+}
+
+.news{
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.page{
+  font-size: 20px;
+}
+
+.icons{
+  display: flex;
+  color: gray;
+  gap: 7px;
+ 
+}
+
+.A{
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+
+}
+
+.duis{
+  font-size:18px;
+  color: gray;
+}
+
+
+.bottom{
+  display: flex;
+  padding: 70px 80px;
+  gap: 80px;
+
+  
+
+}
+.paxi{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  border-bottom: 1px solid white;
+  padding-bottom: 13px;
+
+
+}
+
+.paxi::placeholder{
+  
+color: white;
+outline: none;
+font-size: 18px;
+}
+
+.topic{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.wora{
+  padding-top: 15px;
+  color: gray;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.he{
+  display: flex;
+
+}
+
+.fire{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.naviga{
+  display: flex;
+  gap: 150px;
+}
+
+.footer{
+  text-align: center;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px
+
+}
+
+
+.heart{
+  color: blue;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 5px;
+  font-size:30px;
+}
+
+
+.hits{
+  outline: none;
 }
